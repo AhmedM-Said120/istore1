@@ -1,0 +1,1797 @@
+@font-face {
+  font-family: Proxima-Nova;
+  src: url(../font/Proxima-Nova-Font/Proxima\ Nova\ Font.otf);
+}
+img {
+  width: 100%;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.p-70 {
+  padding: 70px;
+}
+.color__select {
+  color: rgb(51, 160, 255);
+}
+/*  */
+.nav-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+}
+.format {
+  border: none transparent;
+  font-family: Proxima-Nova;
+  font-size: 14px;
+  outline: none;
+  border-radius: 0%;
+  margin-right: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 100;
+}
+.format select {
+  color: #000000;
+  height: 55px;
+  background-color: yellowgreen;
+}
+.bag_3 {
+  margin: 0 10px;
+}
+.bag_3::after {
+  content: "0.00$";
+  color: rgba(128, 128, 128, 0.574);
+  margin: 0px 10px;
+}
+.right-nav i {
+  position: relative;
+  top: 3px;
+}
+.right-nav a {
+  font-size: 14px;
+}
+.logo__istore {
+  background-image: url(../img/iStore-logo-600x400.png);
+  width: 17%;
+  background-position: center;
+  height: 11vh;
+  background-size: cover;
+  margin: auto;
+  padding: 0px 0;
+  position: relative;
+}
+/*  */
+.nav-item {
+  padding: 10px 25px;
+  position: relative;
+  font-family: Proxima-Nova;
+}
+.header .navbar .main_menu {
+  position: relative;
+}
+.ms_collams {
+  display: flex;
+}
+.header .navbar .main_menu .parant-drobdown {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  width: 996px;
+  font-size: 14px;
+  padding: 23px 39px;
+  left: -194px;
+  top: 30px;
+  margin: 14px 0px;
+  line-height: 2.5;
+  border-radius: 15px;
+  border-top: solid 3px #f1f3f4;
+  opacity: 0;
+  visibility: hidden;
+  font-family: Proxima-Nova;
+  transition: all 1s;
+  height: 45vh;
+  z-index: 11;
+}
+.ms-35 {
+  margin-left: 125px;
+  border: 1px red solid;
+  padding: 18px 30px;
+  background-color: tomato;
+  line-height: 2;
+}
+.header .navbar .main_menu:hover .parant-drobdown {
+  opacity: 1;
+  visibility: visible;
+  top: 38px;
+  height: 45vh;
+  transform: scale3d(155deg);
+}
+.arroup {
+  position: absolute;
+  top: -41px;
+  left: 234px;
+  font-size: 31px;
+  font-family: Proxima-Nova;
+  color: rgb(229, 232, 234);
+}
+.categeroty_after::after {
+  content: "Category";
+  color: rgb(193, 200, 206);
+  font-size: 18px;
+  font-family: Proxima-Nova;
+}
+.mr-45 {
+  margin-top: 45px;
+}
+/*  */
+.line-blue-smm {
+  position: relative;
+}
+.line-blue-sm::after {
+  content: "";
+  width: 20px;
+  height: 3px;
+  top: 31px;
+  position: absolute;
+  border-bottom: 3px solid rgb(51, 160, 255);
+}
+.text-bg-primary {
+  color: rgb(51, 160, 255) !important;
+  background-color: transparent !important;
+}
+.iphone__background {
+  background-image: url(../img/Rectangle\ 1\ copy.jpg);
+  width: 100%;
+  overflow: hidden;
+  height: 650px;
+  position: relative;
+}
+.left_text_iphone-x {
+  width: 40%;
+  position: absolute;
+  top: 150px;
+  font-size: 36px;
+  left: 194px;
+  color: #f1f3f4;
+  font-family: Proxima-Nova;
+}
+.left_text_iphone-x h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Proxima-Nova;
+  line-height: 3;
+}
+.left_text_iphone-x p {
+  font-size: 14px;
+  font-weight: 800;
+  font-family: Proxima-Nova;
+}
+.left_text_iphone-x .more_line a {
+  color: #f1f3f4;
+  font-family: Proxima-Nova;
+  line-height: 4;
+  font-size: 14px;
+}
+.left_text_iphone-x .more_line a::after {
+  content: "";
+  width: 33px;
+  height: 3px;
+  top: 240px;
+  left: -3px;
+  border-bottom: 4.5px solid white;
+  color: white;
+  position: absolute;
+  transition: all 0.5s;
+}
+.left_text_iphone-x .more_line:hover a::after {
+  width: 40px;
+}
+.iphone__img_right {
+  position: relative;
+  right: 165px;
+  top: 50px;
+  width: 100%;
+}
+.three_boxs {
+  background-color: transparent;
+  position: relative;
+  bottom: 113px;
+  width: 930px;
+  left: 248px;
+}
+.content {
+  display: flex;
+}
+.tree_boxss_sm {
+  display: none;
+}
+.box1 {
+  width: 306px;
+  height: 34vh;
+  background-color: rgb(255, 104, 117);
+}
+.text-left1 {
+  width: 183px;
+  padding: 36px 12px;
+  font-family: Proxima-Nova;
+  color: aliceblue;
+}
+.box1 .text-left1 h5 {
+  font-size: 24px;
+}
+.img-right1 {
+  width: 281px;
+  position: relative;
+  right: 115px;
+  top: 23px;
+}
+.box1 .text-left1 p:nth-child(2) {
+  font-size: 12px;
+  width: 257px;
+}
+.box1 .text-left1 p:last-child {
+  font-size: 24px;
+}
+.box1 img {
+  background-color: transparent;
+}
+.box2 {
+  width: 306px;
+  height: 34vh;
+  background-color: rgb(229, 231, 233);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.text-left2 {
+  position: absolute;
+  font-family: Proxima-Nova;
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  bottom: -7px;
+  left: 32px;
+  align-items: baseline;
+}
+.box2 .text-left2 p:nth-child(2) {
+  font-size: 12px;
+}
+.box2 .text-left2 p:last-child {
+  font-size: 24px;
+}
+.img-right2 img {
+  width: 257px;
+  position: absolute;
+  top: -44px;
+  right: 13px;
+}
+.box3 {
+  background-color: rgb(193, 200, 206);
+  width: 306px;
+  height: 34vh;
+  position: relative;
+}
+.text-left3 {
+  width: 183px;
+  padding: 36px 12px;
+  font-family: Proxima-Nova;
+  color: rgb(0, 0, 0);
+}
+.box3 .text-left3 h5 {
+  font-size: 24px;
+}
+.img-right3 {
+  width: 184px;
+  position: absolute;
+  left: 139px;
+  bottom: 7px;
+}
+.box3 .text-left3 p:nth-child(2) {
+  font-size: 12px;
+  width: 167px;
+}
+.box3 .text-left3 p:last-child {
+  font-size: 24px;
+}
+/*  */
+.best__seller a {
+  color: #000;
+  transition: all 0.5s;
+}
+.best__seller a:hover {
+  color: rgb(51, 160, 255);
+}
+.content_sm {
+  visibility: hidden;
+  opacity: 0;
+}
+
+/*  */
+.rating {
+  transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  left: 130px;
+  top: 64px;
+}
+.rating input {
+  display: none;
+}
+.rating label {
+  display: block;
+  cursor: pointer;
+  width: 20px;
+}
+.rating label::before {
+  content: "\f005";
+  font-family: fontAwesome;
+  position: relative;
+  display: block;
+  font-size: 20px;
+  color: gold;
+}
+.rating label::after {
+  content: "\f005";
+  font-family: fontAwesome;
+  position: absolute;
+  display: block;
+  font-size: 20px;
+  color: white;
+  top: 0;
+  opacity: 1;
+  transition: all 0.5s;
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+.rating label:hover:after,
+.rating label:hover ~ label:after,
+.rating input:checked ~ label:after {
+  opacity: 0;
+}
+.ms-ssss {
+  transform: translate(458px, -23px);
+}
+.img_lab {
+  width: 90%;
+  transform: translate(10px, 10px);
+  position: relative;
+  overflow: hidden;
+}
+.img_lab img {
+  transition: all 0.5s;
+}
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(207, 202, 202, 0.459);
+  inset: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  text-align: center;
+  z-index: 11;
+}
+.overlay .icons-overlay {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  transition: all 1s;
+  font-size: 25px;
+}
+.overlay a {
+  color: rgb(51, 160, 255);
+  left: 8px;
+  margin-right: 11px;
+  border-radius: 50%;
+  border: 1px solid rgb(51, 160, 255);
+}
+.overlay:hover a {
+  color: rgb(28, 149, 255);
+}
+.overlay a span {
+  padding: 7px;
+}
+.overlay a span i {
+  font-size: 15px;
+}
+.img_lab:hover .overlay {
+  opacity: 1;
+  border-radius: 2%; /*  transform: translateY(50px); */
+}
+.img_lab:hover img {
+  transform: scale(1.1);
+}
+.img_lab::after {
+  content: "";
+  width: 260px;
+  height: 3px;
+  background-color: rgba(193, 200, 206, 0.267);
+  position: absolute;
+  top: 196px;
+  left: 15px;
+}
+.p-70 .card {
+  background-color: transparent;
+  border: 2px solid rgb(193, 200, 206, 0.267);
+  width: 100%;
+  height: 393px;
+  font-family: Proxima-Nova;
+}
+.mack_pro {
+  transform: translate(-4px, 37px);
+
+  font-family: Proxima-Nova;
+  text-align: center;
+}
+.ro_sele {
+  display: flex;
+  justify-content: space-between;
+  font-family: Proxima-Nova;
+  width: 115px;
+  align-content: stretch;
+  transform: translate(70px, 61px);
+  height: 26px;
+}
+.ro_sele p:first-child {
+  color: red;
+}
+.gray-line {
+  color: gray;
+}
+.gray-line::after {
+  content: "";
+  width: 40px;
+  height: 1px;
+  background-color: black;
+  position: absolute;
+  top: 12px;
+  right: -2px;
+}
+.laod_more {
+  position: relative;
+}
+.laod_more a {
+  color: rgb(51, 160, 255);
+  font-family: Proxima-Nova;
+  font-size: 14px;
+  border-bottom: 2px solid rgba(51, 160, 255, 0.432);
+}
+.laod_more a:hover {
+  width: 79px;
+  color: rgb(51, 153, 136);
+  border-bottom: 4px solid rgb(51, 160, 255);
+}
+.iphone-6-plus {
+  background-color: rgb(51, 160, 255);
+  width: 100%;
+  height: 65.6vh;
+  margin-top: 55px;
+}
+.left-text-iphone-plus {
+  position: relative;
+  top: 65px;
+}
+.left-text-iphone-plus h3 {
+  font-size: 50px;
+  color: #f1f1f1;
+}
+.left-text-iphone-plus p {
+  color: #f1f1f1;
+  font-size: 20px;
+}
+.left-text-iphone-plus a {
+  color: white;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.left-text-iphone-plus a:hover {
+  color: rgb(51, 99, 255);
+}
+.img-right-iphone-plus {
+  position: relative;
+  bottom: 150px;
+  width: 90%;
+  left: 100px;
+}
+.line-shop-now {
+  border-bottom: 1px solid whitesmoke;
+  width: 95px;
+  transition: all 0.5s;
+}
+.left-text-iphone-plus .line-shop-now:hover {
+  width: 115px;
+  border-bottom: 2px solid rgb(51, 99, 255);
+}
+.img-shopping {
+  width: 20%;
+  position: relative;
+  left: 128px;
+  line-height: 6;
+}
+.img-shopping2 {
+  width: 17%;
+  position: relative;
+  left: 128px;
+  line-height: 6;
+}
+.img-shopping3 {
+  width: 15%;
+  position: relative;
+  left: 128px;
+  line-height: 6;
+}
+.head-text-shoping h3 {
+  line-height: 2;
+  font-family: Proxima-Nova;
+}
+.head-text-shoping p {
+  line-height: 1.5;
+}
+.latest_news .card {
+  border: none;
+  height: 143px;
+}
+.txt-smal1 {
+  position: relative;
+  width: 92px;
+  bottom: 18px;
+}
+.txt-larg {
+  position: relative;
+  width: 213px;
+  bottom: 15px;
+  font-size: 14px;
+  font-family: Proxima-Nova;
+}
+.txt-larg h5 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Proxima-Nova;
+}
+.featured__products .card {
+  border: none;
+  height: 143px;
+  position: relative;
+}
+.img-sm-left11 {
+  width: 155px;
+  position: absolute;
+  z-index: 15551;
+  top: 11px;
+  left: -7px;
+}
+.img-sm-left11 .sqwar-end-img {
+  width: 95px;
+  height: 94px;
+  border: 2px solid rgb(51 160 255 / 19%);
+  position: absolute;
+  z-index: -13;
+  left: 29px;
+  top: 19px;
+}
+.txt-larg2 {
+  font-family: Proxima-Nova;
+}
+.txt-larg2 h5 {
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  top: 8px;
+}
+.rate_img {
+  width: 111px;
+  position: relative;
+  top: 5px;
+}
+.ro_sele2 {
+  display: flex;
+  justify-content: space-between;
+  font-family: Proxima-Nova;
+  width: 108px;
+  align-content: stretch;
+  transform: translate(1px, 10px);
+  height: 26px;
+}
+.ro_sele2 p:first-child {
+  color: red;
+}
+.ro_sele2 p:last-child {
+  color: gray;
+}
+.img-sm-left111 {
+  width: 110px;
+  height: 94px;
+  border: 2px solid rgb(51 160 255 / 19%);
+  position: absolute;
+  z-index: -13;
+  left: 8px;
+  top: 19px;
+}
+.img-sm-left2 img {
+  width: 110px;
+  position: relative;
+  left: 25px;
+  top: 12px;
+}
+.img-sm-left3 img {
+  width: 149px;
+  position: relative;
+  left: 2px;
+  top: 19px;
+}
+.img-sm-left1111 {
+  width: 135px;
+  height: 94px;
+
+  position: absolute;
+  z-index: -20;
+  left: -18px;
+  top: 19px;
+}
+.img-sm-left1111 .sqwar1-end-img {
+  width: 103px;
+  height: 92px;
+  border: 2px solid rgb(51 160 255 / 19%);
+  position: absolute;
+  z-index: -13;
+  left: 17px;
+  top: 0px;
+}
+.larg_aria {
+  text-align: center;
+}
+.larg_aria input {
+  width: 547px;
+  padding: 18px;
+  font-size: 13px;
+  position: relative;
+  border: 1px solid rgb(51 160 255);
+  height: 58px;
+  border-radius: 11px;
+  right: 12px;
+  top: 23px;
+}
+.larg_aria input:focus {
+  outline: none;
+}
+.sup {
+  position: relative;
+}
+/* ناقص ال hover --------------------------------------------------------------- */
+
+.sup input {
+  position: absolute;
+  top: -36px;
+  left: 773px;
+  width: 163px;
+  height: 58px;
+  border: 0px solid;
+  background: rgb(46, 144, 229);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  color: white;
+  font-size: 17px;
+  font-family: Proxima-Nova;
+  transition: all 0.5s;
+}
+/* ناقص ال hover --------------------------------------------------------------- */
+
+.footer {
+  position: relative;
+}
+.left__content {
+  display: flex;
+}
+.logo_istore_left::after {
+  content: "iStore";
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(193, 200, 206);
+}
+.pragraf-logo {
+  font-size: 12px;
+  line-height: 2;
+  padding: 0px 42px;
+  position: relative;
+  right: 43px;
+}
+.logo_istore_left2::after {
+  content: "Follow Us";
+  font-size: 18px;
+  height: 15px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin-top: 12px;
+  position: relative;
+  top: 23px;
+}
+.pragraf-logo2 {
+  font-size: 12px;
+  line-height: 2;
+  padding: 0px 42px;
+  position: relative;
+  right: 43px;
+  top: 35px;
+}
+.sochal_media {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 61px;
+  position: relative;
+  top: 44px;
+}
+.sochal_media img {
+  width: 16px;
+}
+.fb__width15px img {
+  width: 8px;
+}
+.logo_istore_left3::after {
+  content: "Contact Us";
+  font-size: 18px;
+  height: 15px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin-top: 12px;
+  position: relative;
+  top: 23px;
+  right: 44px;
+}
+.pragraf-logo3 {
+  font-size: 12px;
+  line-height: 0.5;
+  position: relative;
+  right: 43px;
+  top: 31px;
+}
+.pragraf-logo3 p:first-child {
+  line-height: 2;
+}
+.long__line_footer::after {
+  content: "";
+  border: 0.5px solid rgb(246, 247, 248);
+  width: 1083px;
+  height: 0.5px;
+  margin-top: 39px;
+  position: absolute;
+  left: 117px;
+  top: 228px;
+}
+.mt-70 {
+  margin-top: 70px;
+}
+.copy-right::after {
+  content: "© 2018 Ecommerce theme by www.bisenbaev.com";
+  font-size: 14px;
+  color: rgb(152, 148, 156);
+}
+/* --------------------------------------------------------------------------- */
+/* 768 */
+@media screen and (max-width: 768px) {
+  .logo__istore {
+    background-image: url(../img/iStore-logo-600x400.png);
+    width: 17%;
+    background-position: center;
+    height: 11vh;
+    background-size: cover;
+    margin: auto;
+    padding: 0px 0;
+    position: relative;
+    top: 85px;
+    left: 214px;
+  }
+  .three_boxs {
+    display: none;
+  }
+  .iphone__background {
+    height: 571px;
+  }
+  .header .navbar .main_menu:hover .parant-drobdown {
+    height: 24vh;
+  }
+  .header .navbar .main_menu .parant-drobdown {
+    width: 769px;
+    font-size: 12px;
+    padding: 24px 65px;
+    left: -70px;
+    top: 30px;
+    margin: 14px 0px;
+    line-height: 1.5;
+    border-radius: 1px;
+    border-top: solid 3px #f1f3f4;
+    font-family: Proxima-Nova;
+    transition: all 1s;
+    height: 45vh;
+  }
+  .iphone__img_right {
+    position: relative;
+    left: 212px;
+    top: 88px;
+    width: 73%;
+  }
+  .left_text_iphone-x {
+    width: 45%;
+    position: absolute;
+    top: 150px;
+    font-size: 36px;
+    left: 83px;
+    color: #f1f3f4;
+    font-family: Proxima-Nova;
+  }
+  .ms-ssss {
+    transform: translate(253px, 2px);
+  }
+  .iphone-6-plus {
+    background-color: rgb(51, 160, 255);
+    width: 100%;
+    height: 28vh;
+    margin-top: 55px;
+  }
+  .left-text-iphone-plus h3 {
+    font-size: 43px;
+    color: #f1f1f1;
+  }
+  .left-text-iphone-plus {
+    position: relative;
+    top: -7px;
+  }
+  .img-right-iphone-plus {
+    position: relative;
+    bottom: 93px;
+    width: 102%;
+    left: 71px;
+  }
+  .img-shopping {
+    width: 16%;
+    position: relative;
+    left: 248px;
+    line-height: 6;
+  }
+  .img-shopping2 {
+    width: 12%;
+    position: relative;
+    left: 260px;
+    line-height: 6;
+  }
+  .img-shopping3 {
+    width: 10%;
+    position: relative;
+    left: 270px;
+    line-height: 6;
+  }
+  .latest_news .card {
+    border: none;
+    height: 249px;
+  }
+  .featured__products .card {
+    border: none;
+    height: 201px;
+    position: relative;
+    overflow: hidden;
+  }
+  .img-sm-left11 {
+    width: 135px;
+    position: absolute;
+    z-index: 15551;
+    top: 11px;
+    left: -7px;
+  }
+  .img-sm-left2 img {
+    width: 101px;
+    position: relative;
+    left: 25px;
+    top: 16px;
+  }
+  .img-sm-left11 .sqwar-end-img {
+    width: 83px;
+    height: 81px;
+    border: 2px solid rgb(51 160 255 / 19%);
+    position: absolute;
+    z-index: -13;
+    left: 29px;
+    top: 19px;
+  }
+  .larg_aria input {
+    width: 440px;
+    padding: 18px;
+    font-size: 13px;
+    position: relative;
+    border: 1px solid rgb(51 160 255);
+    height: 44px;
+    border-radius: 11px;
+    right: 10px;
+    top: 23px;
+  }
+  .sup input {
+    position: absolute;
+    top: -20px;
+    left: 453px;
+    width: 140px;
+    height: 42px;
+    border: 0px solid;
+    background: rgb(46, 144, 229);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-family: Proxima-Nova;
+    transition: all 0.5s;
+  }
+  .long__line_footer::after {
+    content: "";
+    border: 0.5px solid rgb(246, 247, 248);
+    width: 1083px;
+    height: 0.5px;
+    margin-top: 39px;
+    position: absolute;
+    left: 117px;
+    top: 228px;
+    display: none;
+  }
+  .pragraf-logo {
+    font-size: 10px;
+    line-height: 2;
+    padding: 7px 0px;
+    position: relative;
+    right: 40px;
+  }
+  .logo_istore_left::after {
+    content: "iStore";
+    font-size: 38px;
+    font-weight: bolder;
+    color: rgb(193, 200, 206);
+    position: relative;
+    right: 38px;
+    top: 4px;
+  }
+  .pragraf-logo2 {
+    font-size: 10px;
+    line-height: 2;
+    padding: 0px 8px;
+    position: relative;
+    right: 31px;
+    top: 35px;
+  }
+  .logo_istore_left2::after {
+    content: "Follow Us";
+    font-size: 17px;
+    height: 15px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+    position: relative;
+    top: 23px;
+    left: -22px;
+  }
+  .pragraf-logo3 {
+    font-size: 10px;
+    line-height: 0.5;
+    position: relative;
+    right: 43px;
+    top: 31px;
+  }
+  .compaonants {
+    margin-top: 15px;
+  }
+  .p-70 .card {
+    background-color: transparent;
+    border: 2px solid rgb(193, 200, 206, 0.267);
+    width: 100%;
+    height: 241px;
+    font-family: Proxima-Nova;
+    margin: 10px 0;
+  }
+  .mack_pro {
+    transform: translate(-4px, 21px);
+    font-family: Proxima-Nova;
+    text-align: center;
+  }
+  .rating {
+    transform: translate(-50%, -50%) rotateY(180deg);
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 112px;
+    top: 34px;
+  }
+  .ro_sele {
+    display: flex;
+    justify-content: space-between;
+    font-family: Proxima-Nova;
+    width: 110px;
+    align-content: stretch;
+    transform: translate(61px, 20px);
+    height: 26px;
+  }
+}
+/* 600 px------------------------- */
+@media screen and (max-width: 600px) {
+  .nav-icon {
+    width: 100%;
+  }
+  .left-nav {
+    visibility: hidden;
+    opacity: 0;
+  }
+  .right-nav {
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 13px;
+    padding-inline: 39px;
+  }
+  .ms_collams {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: stretch;
+  }
+  .right-nav a {
+    font-size: 10px;
+  }
+  .format {
+    border: none transparent;
+    font-family: Proxima-Nova;
+    font-size: 14px;
+    outline: none;
+    border-radius: 0%;
+    margin-right: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: 100;
+  }
+  .format select {
+    color: #000000;
+    height: 55px;
+  }
+  .bag_3 {
+    margin: 0 10px;
+  }
+  .bag_3::after {
+    content: "0.00$";
+    color: rgba(128, 128, 128, 0.574);
+    margin: 0px 10px;
+  }
+  .logo__istore {
+    background-image: url(../img/iStore-logo-600x400.png);
+    width: 35%;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    padding: 0px 0;
+    position: absolute;
+    left: 126px;
+    top: 24px;
+  }
+  .nav-item {
+    padding: 10px 25px;
+    position: relative;
+    font-family: Proxima-Nova;
+  }
+  .header .navbar .main_menu .menu {
+    display: none;
+  }
+  .header .navbar .main_menu:hover .menu {
+    display: block;
+  }
+  .header .navbar .main_menu .parant-drobdown {
+    position: relative;
+    background-color: rgb(229, 232, 234);
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+    padding: 7px 0px;
+    left: 0;
+    margin-top: 40px;
+    line-height: 2.5;
+    border-radius: 15px;
+    border-top: solid 3px #f1f3f4;
+    font-family: Proxima-Nova;
+    transition: all 5s;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 217px;
+    display: none;
+  }
+  .ms-35 {
+    margin-left: 125px;
+    border: 1px red solid;
+    padding: 18px 30px;
+    background-color: rgb(152, 148, 156);
+    line-height: 2;
+  }
+  .navbar-toggler {
+    color: rgba(152, 148, 156, 0.096);
+    transition: all 0.4s;
+  }
+  .header .navbar .main_menu:hover .parant-drobdown {
+    display: block;
+    top: 0px;
+    height: 81vh;
+    transform: scale(1.1);
+  }
+  .arroup {
+    position: absolute;
+    top: -42px;
+    left: 24px;
+    font-size: 31px;
+    color: rgb(229, 232, 234);
+  }
+  .categeroty_after::after {
+    content: "Category";
+    color: rgb(193, 200, 206);
+    font-size: 18px;
+  }
+  .mr-45 {
+    margin-top: 45px;
+  }
+  .left_text_iphone-x {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    font-size: 36px;
+    left: 10px;
+    color: #f1f3f4;
+    font-family: Proxima-Nova;
+  }
+  .left_text_iphone-x h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: Proxima-Nova;
+    line-height: 3;
+  }
+  .left_text_iphone-x p {
+    font-size: 14px;
+    font-weight: 800;
+    font-family: Proxima-Nova;
+  }
+  .left_text_iphone-x .more_line a::after {
+    content: "";
+    width: 33px;
+    height: 3px;
+    top: 240px;
+    left: -3px;
+    border-bottom: 4.5px solid white;
+    color: white;
+    position: absolute;
+    transition: all 0.5s;
+  }
+  .left_text_iphone-x .more_line:hover a::after {
+    width: 40px;
+  }
+  .iphone__img_right {
+    position: absolute;
+    left: 23px;
+    bottom: 0;
+    top: 259px;
+    width: 43vh;
+  }
+  .box1-sm {
+    background-color: rgb(255, 104, 117);
+  }
+  .content {
+    display: none;
+  }
+  .tree_boxss_sm {
+    display: block;
+    width: 100%;
+  }
+  .content_sm {
+    opacity: 1;
+    width: 100%;
+    visibility: visible;
+    border-radius: 0;
+    border: none;
+  }
+  .content_sm .card {
+    border: none;
+  }
+  .box1-sm {
+    background-color: #d9ddde;
+    width: 100%;
+    height: 50vh;
+    margin-top: 3px;
+    border-radius: 16px;
+    overflow: hidden;
+  }
+  .text1-sm {
+    color: rgb(0, 0, 0);
+    font-family: Proxima-Nova;
+  }
+  .img1-sm {
+    width: 70%;
+    position: absolute;
+    left: 110px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+    top: 33px;
+  }
+  .text2-sm {
+    display: flex;
+    font-family: Proxima-Nova;
+    justify-content: space-between;
+  }
+  .box2-sm {
+    background-color: #e9e9e9;
+    border-radius: 15px;
+  }
+  .box3-sm {
+    background-color: rgb(193, 200, 206);
+    border-radius: 15px;
+    font-family: Proxima-Nova;
+  }
+  .ms-ssss {
+    transform: translate(100px, -1px);
+    font-family: Proxima-Nova;
+    width: 180px;
+  }
+  .ro_sele {
+    display: flex;
+    justify-content: space-between;
+    font-family: Proxima-Nova;
+    width: 115px;
+    align-content: stretch;
+    transform: translate(38px, 119px);
+    height: 26px;
+  }
+  .rating {
+    transform: translate(-50%, -50%) rotateY(180deg);
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 92px;
+    top: 100px;
+  }
+  .iphone-6-plus {
+    background-color: rgb(51, 160, 255);
+    width: 100%;
+    height: 20vh;
+    margin-top: 55px;
+  }
+  .img-right-iphone-plus {
+    position: relative;
+    bottom: 192px;
+    width: 79%;
+    left: 134px;
+  }
+  .img-shopping {
+    width: 20%;
+    position: relative;
+    left: 92px;
+    line-height: 6;
+  }
+  .img-shopping2 {
+    width: 17%;
+    position: relative;
+    left: 103px;
+    line-height: 6;
+  }
+  .img-shopping3 {
+    width: 15%;
+    position: relative;
+    left: 106px;
+    line-height: 6;
+  }
+  .latest_news .card {
+    border: none;
+    height: 427px;
+  }
+  .txt-larg2 h5 {
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+
+    right: -125px;
+  }
+  .featured__products .card {
+    border: none;
+    height: 163px;
+    position: relative;
+    overflow: hidden;
+  }
+  .rate_img {
+    width: 111px;
+    position: relative;
+    top: 18px;
+    left: 160px;
+  }
+  .ro_sele2 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Proxima-Nova;
+    width: 108px;
+    align-content: stretch;
+    transform: translate(162px, 38px);
+    height: 26px;
+  }
+  .larg_aria input {
+    width: 296px;
+    padding: 19px;
+    font-size: 12px;
+    position: relative;
+    border: 1px solid rgb(51 160 255);
+    height: 58px;
+    border-radius: 11px;
+    right: 12px;
+    top: 0px;
+  }
+  .sup input {
+    position: absolute;
+    top: -57px;
+    left: 204px;
+    width: 119px;
+    height: 56px;
+    border: 0px solid;
+    background: rgb(46, 144, 229);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: Proxima-Nova;
+    transition: all 0.5s;
+  }
+  .left__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .pragraf-logo {
+    font-size: 12px;
+    line-height: 2;
+    padding: 0px 0px;
+    position: relative;
+    right: 2px;
+  }
+  .pragraf-logo2 {
+    font-size: 12px;
+    line-height: 2;
+    padding: 0px 0px;
+    position: relative;
+    right: 8px;
+    top: 30px;
+  }
+  .sochal_media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 61px;
+    position: relative;
+    top: 15px;
+  }
+  .logo_istore_left3::after {
+    content: "Contact Us";
+    font-size: 18px;
+    height: 15px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+    position: relative;
+    top: 25px;
+    right: -3px;
+  }
+  .pragraf-logo3 {
+    font-size: 10px;
+    line-height: 0.5;
+    position: relative;
+    right: 4px;
+    top: 31px;
+  }
+  .long__line_footer::after {
+    content: "";
+    border: 0.5px solid rgb(246, 247, 248);
+    width: 0;
+    height: 0.5px;
+    margin-top: 39px;
+    position: absolute;
+    left: 117px;
+    top: 228px;
+  }
+  .copy_right_footer img {
+    width: 48%;
+    margin: 5px 0;
+  }
+  .left-text-iphone-plus h3 {
+    font-size: 26px;
+    color: #f1f1f1;
+  }
+  .left-text-iphone-plus p {
+    color: #f1f1f1;
+    font-size: 10px;
+  }
+  .left-text-iphone-plus a {
+    color: white;
+    font-size: 10px;
+    transition: all 0.5s;
+  }
+  .line-shop-now {
+    border-bottom: 1px solid whitesmoke;
+    width: 53px;
+    transition: all 0.5s;
+  }
+  .left-text-iphone-plus {
+    position: relative;
+    top: -25px;
+    right: 62px;
+  }
+  .p-70 .card {
+    background-color: transparent;
+    border: 2px solid rgb(193, 200, 206, 0.267);
+    width: 100%;
+    height: 393px;
+    font-family: Proxima-Nova;
+    margin: 8px 0;
+  }
+  .sup input {
+    position: absolute;
+    top: -58px;
+    left: 212px;
+    width: 119px;
+    height: 56px;
+    border: 0px solid;
+    background: rgb(46, 144, 229);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-family: Proxima-Nova;
+    transition: all 0.5s;
+  }
+}
+@media screen and (max-width: 360px) {
+  .logo__istore {
+    background-image: url(../img/iStore-logo-600x400.png);
+    width: 35%;
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    padding: 0px 0;
+    position: absolute;
+    left: 130px;
+    top: 36px;
+  }
+  .header .navbar .main_menu .parant-drobdown {
+    position: relative;
+    background-color: rgb(229, 232, 234);
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    padding: 7px 0px;
+    left: 0;
+    margin-top: 40px;
+    line-height: 2.1;
+    border-radius: 15px;
+    border-top: solid 3px #f1f3f4;
+    font-family: Proxima-Nova;
+    transition: all 5s;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 217px;
+    display: none;
+  }
+  .iphone__img_right {
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+    top: 228px;
+    width: 62vh;
+  }
+  .img1-sm {
+    width: 52%;
+    position: absolute;
+    left: 160px;
+    border-bottom-right-radius: 7px;
+    overflow: hidden;
+    top: 61px;
+  }
+  .rating {
+    transform: translate(-50%, -50%) rotateY(180deg);
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    left: 76px;
+    top: 97px;
+  }
+  .ro_sele {
+    display: flex;
+    justify-content: space-between;
+    font-family: Proxima-Nova;
+    width: 115px;
+    align-content: stretch;
+    transform: translate(21px, 109px);
+    height: 26px;
+  }
+  .iphone-6-plus {
+    background-color: rgb(51, 160, 255);
+    width: 100%;
+    height: 25vh;
+    margin-top: -29px;
+  }
+  .left-text-iphone-plus {
+    position: relative;
+    top: -44px;
+    right: 69px;
+  }
+  .left-text-iphone-plus h3 {
+    font-size: 24px;
+    color: #f1f1f1;
+  }
+  .left-text-iphone-plus p {
+    color: #f1f1f1;
+    font-size: 10px;
+  }
+  .left-text-iphone-plus a {
+    color: white;
+    font-size: 7.6px;
+    transition: all 0.5s;
+  }
+  .line-shop-now {
+    border-bottom: 1px solid whitesmoke;
+    width: 41px;
+    transition: all 0.5s;
+  }
+  .img-right-iphone-plus {
+    position: relative;
+    bottom: 195px;
+    width: 86%;
+    left: 109px;
+  }
+  .img-shopping {
+    width: 43%;
+    position: relative;
+    left: 51px;
+    line-height: 6;
+  }
+  .img-shopping2 {
+    width: 31%;
+    position: relative;
+    left: 67px;
+    line-height: 6;
+  }
+  .mt-70 {
+    margin-top: 0px;
+  }
+  .img-shopping3 {
+    width: 27%;
+    position: relative;
+    left: 66px;
+    line-height: 6;
+  }
+  .latest_news .card {
+    border: none;
+    height: 282px;
+    width: 64%;
+    position: relative;
+    left: 23px;
+  }
+  .img-sm-left11 {
+    width: 122px;
+    position: absolute;
+    z-index: 15551;
+    top: 11px;
+  }
+  .img-sm-left11 .sqwar-end-img {
+    width: 84px;
+    height: 74px;
+    border: 2px solid rgb(51 160 255 / 19%);
+    position: absolute;
+    z-index: -13;
+    left: 20px;
+    top: 14px;
+  }
+  .txt-larg2 h5 {
+    font-size: 10px;
+    font-weight: bold;
+    position: relative;
+    top: 8px;
+    left: 126px;
+  }
+  .rate_img {
+    width: 111px;
+    position: relative;
+    top: 13px;
+    left: 164px;
+  }
+  .ro_sele2 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Proxima-Nova;
+    width: 108px;
+    align-content: stretch;
+    transform: translate(168px, 27px);
+    height: 26px;
+    font-size: 14px;
+  }
+  .gray-line::after {
+    content: "";
+    width: 34px;
+    height: 1px;
+    background-color: black;
+    position: absolute;
+    top: 10px;
+    right: -2px;
+  }
+  .featured__products .card {
+    border: none;
+    height: 145px;
+    position: relative;
+    right: 24px;
+    overflow: hidden;
+  }
+  .img-sm-left2 img {
+    width: 83px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+  }
+  .img-sm-left3 img {
+    width: 115px;
+    position: relative;
+    left: 5px;
+    top: 16px;
+  }
+  .logo_istore_left::after {
+    content: "iStore";
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(193, 200, 206);
+  }
+  .pragraf-logo {
+    font-size: 12px;
+    line-height: 2;
+    padding: 0px 0px;
+    position: relative;
+    right: 13px;
+  }
+  .logo_istore_left2::after {
+    content: "Follow Us";
+    font-size: 24px;
+    height: 0px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+    position: relative;
+    top: 12px;
+  }
+  .pragraf-logo2 {
+    font-size: 13px;
+    line-height: 2;
+    padding: 0px 0px;
+    position: relative;
+    right: 18px;
+    top: 25px;
+  }
+  .sochal_media {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 57px;
+    position: relative;
+    top: 13px;
+    left: 33px;
+  }
+  .logo_istore_left3::after {
+    content: "Contact Us";
+    font-size: 22px;
+    height: 15px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-top: 12px;
+    position: relative;
+    top: 30px;
+    right: -8px;
+  }
+  .pragraf-logo3 {
+    font-size: 11px;
+    line-height: 0.5;
+    position: relative;
+    right: 12px;
+    top: 30px;
+  }
+  .larg_aria input {
+    width: 289px;
+    padding: 9px;
+    font-size: 12px;
+    border: 1px solid rgb(51 160 255);
+    height: 48px;
+    border-radius: 11px;
+  }
+  .sup input {
+    position: absolute;
+    top: -24px;
+    left: 227px;
+    width: 85px;
+    height: 47px;
+    border: 0px solid;
+    background: rgb(46, 144, 229);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 13px;
+    font-family: Proxima-Nova;
+    transition: all 0.5s;
+  }
+  .long__line_footer::after {
+    width: 0%;
+  }
+  .left__content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding: 0;
+  }
+  .combanannts_last {
+    margin: 31px 0;
+  }
+  .copy_right_footer img {
+    width: 33%;
+    margin: 4px 54px;
+  }
+  .p-70 .card {
+    background-color: transparent;
+    border: 2px solid rgb(193, 200, 206, 0.267);
+    width: 100%;
+    height: 393px;
+    font-family: Proxima-Nova;
+    margin: 8px 0;
+  }
+  .sup input {
+    position: absolute;
+    top: -47px;
+    left: 227px;
+    width: 85px;
+    height: 47px;
+    border: 0px solid;
+    background: rgb(46, 144, 229);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 13px;
+    font-family: Proxima-Nova;
+    transition: all 0.5s;
+  }
+  .txt-larg {
+    position: relative;
+    width: 191px;
+    bottom: 13px;
+    font-size: 10px;
+    font-family: Proxima-Nova;
+  }
+}

@@ -1,0 +1,431 @@
+body {
+  font-family: Proxima-Nova;
+}
+.color__select1 {
+  background-color: rgb(34, 34, 42);
+}
+.color__select1 a {
+  color: white;
+}
+.color__select2 {
+  color: rgb(0, 0, 0);
+}
+.bread__crumb .breadcrumb {
+  height: 33px;
+  font-size: 14px;
+  justify-content: center;
+  padding: 7px;
+  background-color: rgb(250, 251, 251);
+}
+.bread__crumb a {
+  color: rgb(51, 160, 255);
+}
+.aside1 {
+  background-color: rgb(246, 247, 248);
+  width: 220px;
+  height: 269px;
+  padding: 10px 11px;
+  border-radius: 6px;
+}
+.accesries__after::after {
+  content: "ACCESORIES";
+  font-size: 18px;
+  font-weight: bold;
+}
+.tow__line {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 186px;
+  position: relative;
+  right: 30px;
+  top: 16px;
+  margin-top: 8px;
+  font-weight: 600;
+}
+
+.aside2 {
+  background-color: rgb(246, 247, 248);
+  width: 220px;
+  height: 126px;
+  padding: 23px 13px;
+  border-radius: 6px;
+}
+.accesries__after2::after {
+  content: "PRICES";
+  font-size: 18px;
+  font-weight: bold;
+}
+.tow__line2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 13px;
+  width: 191px;
+  position: relative;
+  right: -3px;
+  top: 11px;
+  margin-top: 8px;
+  font-weight: 500;
+}
+.vote_s1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 21px;
+  transform: rotateY(180deg);
+}
+.accesries__after3::after {
+  content: "color";
+  font-size: 18px;
+  font-weight: bold;
+}
+.aside3 {
+  background-color: rgb(246, 247, 248);
+  width: 220px;
+  height: 109px;
+  padding: 16px 13px;
+  border-radius: 6px;
+}
+.aside3 ul {
+  list-style: none;
+  padding: 17px 0px;
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+  grid-gap: 20px;
+}
+.aside3 ul li {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+.aside3 ul li:hover {
+  transform: scale(1.1);
+}
+#red {
+  background-color: #ef5350;
+}
+#green {
+  background-color: #fa39c0;
+}
+#amber {
+  background-color: #ffca28;
+}
+#blue {
+  background-color: #42a5f5;
+}
+#gray {
+  background-color: #bdbdbd;
+}
+#black {
+  background-color: #0a0a0a;
+}
+.aside4 {
+  background-color: rgb(246, 247, 248);
+  width: 220px;
+  height: 197px;
+  padding: 16px 13px;
+  border-radius: 6px;
+}
+.accesries__after4::after {
+  content: "BRAND";
+  font-size: 18px;
+  font-weight: bold;
+}
+.tow__line4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 13px;
+  width: 191px;
+  position: relative;
+  right: -3px;
+  top: 11px;
+  margin-top: 8px;
+  font-weight: 500;
+}
+.back__blue {
+  background-color: #42a5f5;
+  width: 96%;
+  height: 279px;
+  position: relative;
+  left: 51px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.left_iphone8 {
+  color: white;
+  position: absolute;
+  top: 63px;
+  left: 68px;
+}
+.left_iphone8 h5 {
+  line-height: 2;
+}
+.left_iphone8 p {
+  list-style: 2;
+}
+.left_iphone8 a {
+  color: white;
+  line-height: 2;
+}
+.line__longa {
+  border-bottom: 2px solid white;
+  width: 69px;
+  margin-top: 4px;
+  height: 1px;
+}
+.right_iphone8 {
+  position: absolute;
+  top: -66px;
+  width: 42%;
+  right: 6px;
+}
+.lists {
+  background-color: rgb(246, 247, 248);
+  width: 98.2%;
+  height: 33px;
+  position: relative;
+  left: 39px;
+  top: 9px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.content__list {
+  display: flex;
+  justify-content: space-between;
+}
+.left_con_items {
+  display: flex;
+  margin-top: 4px;
+}
+.name_select {
+  height: 25px;
+  outline: none;
+  font-size: 13px;
+  background-color: rgb(246, 247, 248);
+  border-radius: 7px;
+  margin-left: 16px;
+  border: 0.5px solid silver;
+}
+.right_con_items {
+  font-size: 20px;
+  margin: 3px 24px;
+  width: 69px;
+  display: flex;
+  justify-content: space-between;
+}
+.items_grid .card {
+  position: relative;
+  left: 45px;
+  margin-top: 40px;
+  height: 324px;
+  background-color: transparent;
+}
+.mack_pro {
+  transform: translate(0px, 21px);
+  font-family: Proxima-Nova;
+  text-align: center;
+}
+.rating {
+  transform: translate(-50%, -50%) rotateY(180deg);
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  left: 116px;
+  top: 57px;
+}
+.ro_sele {
+  display: flex;
+  justify-content: space-between;
+  font-family: Proxima-Nova;
+  width: 115px;
+  align-content: stretch;
+  transform: translate(64px, 52px);
+  height: 26px;
+}
+.page-link {
+  background: transparent;
+  border: none;
+}
+/* media screen */
+/* 768 px */
+@media screen and (max-width: 768px) {
+  .back__blue {
+    background-color: #1f6eaf;
+    width: 100%;
+    height: 247px;
+    position: relative;
+    left: -45px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .left_iphone8 {
+    color: white;
+    position: absolute;
+    top: 45px;
+    left: 22px;
+    font-size: 12px;
+  }
+  .right_iphone8 {
+    position: absolute;
+    top: -34px;
+    width: 65%;
+    right: -21px;
+  }
+  .lists {
+    width: 105%;
+    height: 33px;
+
+    left: -52px;
+    top: 9px;
+  }
+  .items_grid .card {
+    position: relative;
+    left: -47px;
+    margin-top: 40px;
+    height: 260px;
+    background-color: transparent;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .rating {
+    left: 67px;
+    top: 60px;
+  }
+  .ro_sele {
+    transform: translate(11px, 56px);
+  }
+}
+/* 600px */
+@media screen and (max-width: 600px) {
+  .aside1 {
+    background-color: rgb(246, 247, 248);
+    width: 377px;
+    height: 269px;
+    padding: 10px 11px;
+    border-radius: 6px;
+    margin-top: 5px;
+  }
+  .tow__line {
+    width: 339px;
+  }
+  .tow__line2 {
+    width: 339px;
+  }
+  .aside2 {
+    background-color: rgb(246, 247, 248);
+    width: 377px;
+    height: 138px;
+    padding: 10px 11px;
+    border-radius: 6px;
+    margin-top: 5px;
+  }
+  .aside3 {
+    width: 377px;
+  }
+  .aside3 ul {
+    grid-gap: 47px;
+  }
+  .aside4 {
+    width: 377px;
+  }
+  .back__blue {
+    width: 90%;
+    height: 200px;
+    left: 17px;
+    top: 39px;
+    margin-top: 16px;
+  }
+  .left_iphone8 {
+    color: white;
+    position: absolute;
+    top: 25px;
+    left: 16px;
+    font-size: 12px;
+  }
+  .lists {
+    width: 96.4%;
+    height: 33px;
+    left: 5px;
+    top: 51px;
+  }
+  .items_grid .card {
+    position: relative;
+    left: -4px;
+    margin-top: 45px;
+    height: 363px;
+    background-color: transparent;
+  }
+  .rating {
+    left: 155px;
+    top: 45px;
+  }
+  .ro_sele {
+    transform: translate(99px, 43px);
+  }
+}
+/* 360px */
+@media screen and (max-width: 360px) {
+  .aside1 {
+    width: 328px;
+    height: 269px;
+    padding: 10px 11px;
+
+    margin-top: 17px;
+  }
+  .tow__line {
+    width: 285px;
+  }
+  .aside2 {
+    width: 328px;
+  }
+  .aside3 {
+    width: 328px;
+  }
+  .aside4 {
+    width: 328px;
+  }
+  .tow__line2 {
+    width: 288px;
+  }
+  .aside3 ul {
+    grid-gap: 38px;
+  }
+  .back__blue {
+    width: 92%;
+    height: 175px;
+    left: 13px;
+    margin-top: 23px;
+  }
+  .left_iphone8 {
+    top: 17px;
+    left: 22px;
+    font-size: 10px;
+  }
+  .lists {
+    width: 98%;
+  }
+  .rating {
+    left: 136px;
+    top: 45px;
+  }
+  .rating {
+    left: 136px;
+    top: 45px;
+  }
+  .ro_sele {
+    transform: translate(86px, 43px);
+  }
+}

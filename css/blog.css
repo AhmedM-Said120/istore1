@@ -1,0 +1,272 @@
+body {
+  font-family: Proxima-Nova;
+}
+
+img {
+  width: 100%;
+}
+.img_world {
+  background-image: url(../img/blog/THUMB.jpg);
+  height: 70vh;
+  width: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.color__select3 {
+  color: gray;
+  font-size: 14px;
+}
+.dolor {
+  position: relative;
+}
+.tow__comment {
+  font-family: Proxima-Nova;
+  display: flex;
+}
+.artecall_textt111 {
+  font-family: Proxima-Nova;
+  font-size: 14px;
+}
+.artecall_textt1121 {
+  font-size: 14px;
+  font-family: Proxima-Nova;
+}
+.tow__comment::before {
+  content: "2 comments";
+  color: rgb(46, 144, 229);
+  margin-right: 10px;
+}
+.back_gr {
+  background-image: url(../img/blog/2.svg);
+  width: 100%;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content_back_gr {
+  margin-top: 15px;
+  font-size: 14px;
+}
+.share_-_icon {
+  display: flex;
+  width: 21%;
+  justify-content: space-around;
+}
+.right-_-p {
+  width: 61px;
+}
+.line_-_gray::after {
+  content: "";
+
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  background-color: rgba(246, 247, 248, 255);
+}
+.comments {
+  margin-top: 30px;
+}
+.content_-_coment {
+  margin-top: 15px;
+}
+.comemet_edit {
+  display: flex;
+}
+.media-body {
+  left: 68px;
+  bottom: 107px;
+  width: 651px;
+  position: relative;
+}
+.media-body p {
+  font-size: 14px;
+}
+.after_-_comment::after {
+  content: "Comments";
+  color: gray;
+}
+.content_-_coment img {
+  width: 40px;
+}
+.conter_under_img {
+  background-color: rgba(246, 247, 248, 255);
+  width: 50px;
+  position: relative;
+  top: 13px;
+  text-align: center;
+}
+.aside_-_down {
+  margin-top: 85px;
+}
+.img1_aside {
+  position: relative;
+}
+
+.overlay_-_img {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.274);
+  color: white;
+  bottom: 0;
+  padding: 0 18px;
+
+  height: 100%;
+}
+.overlay_-_img p {
+  position: relative;
+  top: 162px;
+  font-size: 16px;
+  text-align: inherit;
+}
+.ptns12 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.bttns {
+  margin-top: 21px;
+}
+.bttns2 {
+  margin-top: 0;
+}
+.border_btn {
+  border: 1px solid rgb(51, 160, 255);
+  width: 79px;
+  height: 40px;
+  border-radius: 38px;
+  padding: 6px 15px;
+  transition: all 0.5s;
+}
+.border_btn:hover {
+  background-color: rgb(51, 160, 255);
+}
+.border_btn:hover a {
+  color: white;
+}
+.left-1 {
+  padding: 8px 8px;
+}
+.left-2 {
+  width: 58px;
+  height: 40px;
+  border-radius: 27px;
+  padding: 6px 15px;
+}
+.left-3 {
+  width: 106px;
+  height: 40px;
+  border-radius: 38px;
+  padding: 6px 15px;
+  transition: all 0.5s;
+}
+
+.left-4 {
+  width: 110px;
+  height: 40px;
+  border-radius: 38px;
+  padding: 8px 20px;
+  transition: all 0.5s;
+}
+.left-5 {
+  width: 73px;
+  height: 39px;
+  border-radius: 38px;
+  padding: 7px 15px;
+  transition: all 0.5s;
+}
+.left-6 {
+  width: 110px;
+  height: 40px;
+  border-radius: 38px;
+  padding: 6px 19px;
+}
+/*  */
+@media screen and (max-width: 768px) {
+  .img_world {
+    height: 22vh;
+  }
+  .media-body {
+    left: 68px;
+    bottom: 107px;
+    width: 644px;
+    position: relative;
+  }
+  .overlay_-_img {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.274);
+    color: white;
+    bottom: 0;
+    padding: 0 18px;
+    height: 100%;
+    width: 100%;
+  }
+  .ptns12 {
+    display: flex;
+    flex-wrap: nowrap;
+    display: none;
+    flex-direction: row;
+  }
+  .overlay_-_img p {
+    position: relative;
+    top: 465px;
+    font-size: 37px;
+    font-weight: bolder;
+    text-align: inherit;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img_world {
+    height: 22vh;
+  }
+  .media-body {
+    left: 68px;
+    bottom: 107px;
+    width: 296px;
+    position: relative;
+  }
+  .ptns12 {
+    display: flex;
+    flex-wrap: nowrap;
+    display: none;
+    flex-direction: row;
+  }
+  .overlay_-_img p {
+    position: relative;
+    top: 219px;
+    font-size: 23px;
+    font-weight: bolder;
+    text-align: inherit;
+  }
+  .aside_-_down {
+    margin-top: -72px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .img_world {
+    height: 22vh;
+  }
+  .media-body {
+    left: 68px;
+    bottom: 107px;
+    width: 259px;
+    position: relative;
+  }
+  .ptns12 {
+    display: flex;
+    flex-wrap: nowrap;
+    display: none;
+    flex-direction: row;
+  }
+  .overlay_-_img p {
+    position: relative;
+    top: 212px;
+    font-size: 21px;
+    font-weight: bolder;
+    text-align: inherit;
+  }
+  .aside_-_down {
+    margin-top: -72px;
+  }
+}
